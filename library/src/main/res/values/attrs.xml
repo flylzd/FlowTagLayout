@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowTag">
+
+        <attr name="ftag_borderColor" format="color" />
+        <attr name="ftag_textColor" format="color" />
+        <attr name="ftag_backgroundColor" format="color" />
+
+        <attr name="ftag_checkedBorderColor" format="color" />
+        <attr name="ftag_checkedTextColor" format="color" />
+        <attr name="ftag_checkedMarkerColor" format="color" />
+        <attr name="ftag_checkedBackgroundColor" format="color" />
+
+        <attr name="ftag_pressedBackgroundColor" format="color" />
+
+        <attr name="ftag_borderStrokeWidth" format="dimension" />
+        <attr name="ftag_textSize" format="dimension" />
+
+        <attr name="ftag_horizontalSpacing" format="dimension" />
+        <attr name="ftag_verticalSpacing" format="dimension" />
+        <attr name="ftag_horizontalPadding" format="dimension" />
+        <attr name="ftag_verticalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="flowTagStyle" format="reference" />
+    </declare-styleable>
+
+
+</resources>

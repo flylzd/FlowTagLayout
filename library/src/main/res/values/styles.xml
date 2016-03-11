@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FlowTag">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="ftag_borderColor">#49C120</item>
+        <item name="ftag_textColor">#49C120</item>
+        <item name="ftag_backgroundColor">#FFFFFF</item>
+        <item name="ftag_dashBorderColor">#AAAAAA</item>
+        <item name="ftag_checkedBorderColor">#49C120</item>
+        <item name="ftag_checkedTextColor">#FFFFFF</item>
+        <item name="ftag_checkedMarkerColor">#FFFFFF</item>
+        <item name="ftag_checkedBackgroundColor">#49C120</item>
+        <item name="ftag_pressedBackgroundColor">#EDEDED</item>
+        <item name="ftag_borderStrokeWidth">0.5dp</item>
+        <item name="ftag_textSize">13sp</item>
+        <item name="ftag_horizontalSpacing">8dp</item>
+        <item name="ftag_verticalSpacing">4dp</item>
+        <item name="ftag_horizontalPadding">12dp</item>
+        <item name="ftag_verticalPadding">3dp</item>
+    </style>
+
+    <style name="FlowTag.Small" parent="FlowTag">
+        <item name="ftag_textSize">10sp</item>
+        <item name="ftag_horizontalSpacing">6dp</item>
+        <item name="ftag_verticalSpacing">3dp</item>
+        <item name="ftag_horizontalPadding">8dp</item>
+        <item name="ftag_verticalPadding">2dp</item>
+    </style>
+
+    <style name="FlowTag.Large" parent="FlowTag">
+        <item name="ftag_borderStrokeWidth">0.7dp</item>
+        <item name="ftag_textSize">15sp</item>
+        <item name="ftag_horizontalSpacing">9dp</item>
+        <item name="ftag_verticalSpacing">5dp</item>
+        <item name="ftag_horizontalPadding">14dp</item>
+        <item name="ftag_verticalPadding">4dp</item>
+    </style>
+
+    <style name="FlowTag.Beauty_Red" parent="FlowTag">
+        <item name="ftag_borderColor">#FF3D7F</item>
+        <item name="ftag_textColor">#FF3D7F</item>
+        <item name="ftag_checkedBorderColor">#FF3D7F</item>
+        <item name="ftag_checkedBackgroundColor">#FF3D7F</item>
+    </style>
+
+    <style name="FlowTag.Beauty_Red.Inverse" parent="FlowTag">
+        <item name="ftag_borderColor">#FF3D7F</item>
+        <item name="ftag_textColor">#FFFFFF</item>
+        <item name="ftag_backgroundColor">#FF3D7F</item>
+<!--        <item name="ftag_inputHintColor">#80FFFFFF</item>
+        <item name="ftag_inputTextColor">#DEFFFFFF</item>-->
+        <item name="ftag_checkedBorderColor">#FF3D7F</item>
+        <item name="ftag_checkedTextColor">#FF3D7F</item>
+        <item name="ftag_checkedMarkerColor">#FF3D7F</item>
+        <item name="ftag_checkedBackgroundColor">#FFFFFF</item>
+        <item name="ftag_pressedBackgroundColor">#FF99B1</item>
+    </style>
+
+</resources>
